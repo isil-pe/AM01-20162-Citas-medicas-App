@@ -32,3 +32,5 @@ String location | String direccion | String addedDate
 int schedule | String telefono|String doctor
 |String descripcion|int photo|String spec
 int photo|
+
+![](https://github.com/isil-pe/AM01-20162-Citas-medicas-App/blob/master/diagrama.png)
