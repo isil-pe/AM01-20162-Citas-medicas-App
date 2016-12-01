@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.isil.activities" >
+
+    <application
+        android:name=".DoctorApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme" >
+
+
+        <activity
+            android:name=".DoctorServiceActivity"
+            >
+        </activity>
+
+        <activity
+            android:name=".DoctorBookingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".DoctorSplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DoctorLoginActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".DoctorSignUpActivity"
+            >
+        </activity>
+
+        <activity
+            android:name=".DoctorActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".LocationActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".LocationMainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".MainNoteActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".NoteDetailActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+    </application>
+
+</manifest>

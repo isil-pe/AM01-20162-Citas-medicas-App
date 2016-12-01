@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cita"
+        android:id="@+id/iviSede"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Sede"
+        android:textColor="#000000"
+        android:id="@+id/tviDireccion"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Sede"
+        android:textColor="#000000"
+        android:id="@+id/tviTelefono"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Sede"
+        android:textColor="#000000"
+        android:id="@+id/tviDescripcion"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Categoria"
+        android:textColor="@color/softblue"
+        android:id="@+id/tviCategoria"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/shape_picker"
+        android:layout_below="@+id/tviLocal"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:text="Nombre Sede"
+        android:background="@drawable/shape_picker"
+        android:textColor="@color/softblue"
+        android:id="@+id/tviLocal"
+        android:layout_below="@+id/tviDireccion"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
