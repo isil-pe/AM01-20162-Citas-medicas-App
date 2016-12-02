@@ -1,6 +1,14 @@
-# AM01-20162-Citas-medicas-App
+# AM1-20162-Citas-medicas-App
 
-Proyecto AM01
+Proyecto AM1
+
+# Integrantes
+
+-Paola Cubillas Acuña
+-Max Negri Mendoza
+-Christian Quiñonez
+-Pablo Madrid
+
 
 Descripción del proyecto
 
