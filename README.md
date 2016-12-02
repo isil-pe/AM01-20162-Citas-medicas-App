@@ -2,12 +2,16 @@
 
 Proyecto AM1
 
-# Integrantes
+Integrantes
 
 -Paola Cubillas Acuña
--Max Negri Mendoza
--Christian Quiñonez
+
 -Pablo Madrid
+
+-Max Negri Mendoza
+
+-Christian Quiñonez
+
 
 
 Descripción del proyecto
